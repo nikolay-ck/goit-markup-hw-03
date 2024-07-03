@@ -109,6 +109,10 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    padding-top: 188px;
 }
 
 .button-title {
@@ -120,6 +124,12 @@ a {
     color: #fff;
     font-family: inherit;
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.button {
+    padding-bottom: 188px;
 }
 
 .button-title:hover,
