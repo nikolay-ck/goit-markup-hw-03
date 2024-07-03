@@ -103,6 +103,11 @@ a {
     color: #404bbf;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .title {
     font-size: 56px;
     line-height: 1.07;
@@ -218,5 +223,9 @@ a {
     color: #f4f4fd;
 }
 
+.footer-page {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 
