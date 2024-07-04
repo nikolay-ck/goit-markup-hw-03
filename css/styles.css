@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -103,6 +113,10 @@ a {
     color: #404bbf;
 }
 
+section {
+    display: block;
+}
+
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -129,11 +143,29 @@ a {
     color: #fff;
     font-family: inherit;
     cursor: pointer;
-    display: block;
     margin: 0 auto;
 }
 
-.button {
+/* --------- ШО ЦЕ ЗА МУТЬ ----------*/
+
+.button-title {
+    display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 10px;
+        border-radius: 4px;
+            padding: 16px 32px;
+            width: 169px;
+            height: 56px;
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+            padding: 16px auto;
+}
+
+
+.hero-button {
+    display: flex;
+    align-items: center;
     padding-bottom: 188px;
 }
 
@@ -155,12 +187,25 @@ a {
     overflow: hidden;
 }
 
+.benefits {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.benefits-list {
+    flex-basis: calc((100% - 72px) / 4);
+    margin: 0;
+    padding: 0;
+}
+
 .advantages-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -174,8 +219,34 @@ a {
     background-color: #f4f4fd;;
 }
 
+.team-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
 .team-img {
+    flex-basis: calc((100% - 72px) / 4);
+    margin: 0;
+    padding: 0;
     background-color: #fff;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-radius: 0 0 4px 4px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.under-img {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.team-title {
+    margin-bottom: 72px;
 }
 
 .team-title,
@@ -186,6 +257,10 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+}
+
+.team-name {
+    margin-bottom: 8px;
 }
 
 .team-name,
@@ -205,6 +280,33 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+}
+
+.portfolio-title {
+    margin-bottom: 72px;
+}
+
+.under-foto {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
+}
+
+.portfolio-name {
+    margin-bottom: 8px;
+}
+
+.portfolio-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.portfolio-img {
+    flex-basis: calc((100% - 48px) / 3);
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
 }
 
 .hero,
