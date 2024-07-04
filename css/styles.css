@@ -289,7 +289,14 @@ img {
 .under-foto {
     padding-top: 32px;
     padding-bottom: 32px;
-    
+    padding-left: 16px;
+    border-bottom: 1px solid #e7e9fc;
+        border-left: 1px solid #e7e9fc;
+        border-right: 1px solid #e7e9fc;
+        display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
 }
 
 .portfolio-name {
@@ -298,8 +305,9 @@ img {
 
 .portfolio-list {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
-    gap: 24px;
+    gap: 48px 24px;
 }
 
 .portfolio-img {
@@ -316,6 +324,16 @@ img {
 
 .footer-logo .logo-part {
     color: #f4f4fd;
+}
+
+.footer-logo {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.footer-text {
+    max-width: 264px;
+        margin-right: auto;
 }
 
 .footer-text {
