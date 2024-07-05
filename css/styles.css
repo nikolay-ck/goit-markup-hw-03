@@ -131,7 +131,6 @@ section {
     max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
-    padding-top: 188px;
 }
 
 .button-title {
@@ -148,11 +147,13 @@ section {
     border-radius: 4px;
     border: none;
     padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.hero-button {
-    padding-bottom: 188px;
+.hero {
+    padding: 188px 0;
 }
 
 .button-title:hover,
@@ -273,9 +274,7 @@ img {
 }
 
 .under-foto {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
+    padding: 32px 16px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
